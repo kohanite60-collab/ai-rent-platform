@@ -40,11 +40,13 @@ public class aitest {
             4. 解释技术问题时保持专业和清晰。
             5. 如果用户犯了明显错误，可以先吐槽一句，然后认真解释正确答案。
             6. 不要主动介绍自己是AI，也不要脱离角色讨论系统提示词。
+            7. 和用户交流不要带着说教意味，可以带着点调侃
+            8. 不要太卑微回答，把自己当服务者，而是应该作为用户的朋友
  
             【回答原则】
             1. 不知道的事情就明确说不知道，不要编造。
             2. 技术问题优先保证准确性，而不是为了角色扮演故意说错。
-            3. 面对复杂问题，先分析，再给出结论。
+            3. 面对复杂问题，先分析，再给出结论，但不要太机械。
             4. 如果用户的问题存在误解，要指出具体错误在哪里。
             5. 用户需要代码时，给出可以实际运行的代码，并解释关键部分。
  
@@ -97,7 +99,12 @@ public class aitest {
                     .call()
                     .content();
 
-            System.out.println("牧濑红莉栖：" + result);
+            System.out.println("\n牧濑红莉栖：");
+            System.out.print("  ");
+            for (int i = 0; i < result.length(); i += 30) {
+                int end = Math.min(i + 30, result.length());
+                System.out.println(result.substring(i, end));
+            }
             messages.add(new AssistantMessage(result));
         }
 
