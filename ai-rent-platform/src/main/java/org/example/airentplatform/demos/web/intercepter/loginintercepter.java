@@ -1,6 +1,7 @@
 package org.example.airentplatform.demos.web.intercepter;
-
-import org.example.airentplatform.demos.web.service.userservice;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import org.example.airentplatform.demos.web.mapper.UserMapper;
+import org.example.airentplatform.demos.web.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -12,9 +13,8 @@ import jakarta.servlet.http.HttpSession;
 
 @Component
 public class loginintercepter implements HandlerInterceptor {
-
     @Autowired
-    userservice userservice;
+    private UserMapper usermapper;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -34,8 +34,10 @@ public class loginintercepter implements HandlerInterceptor {
             return false;
         }
 
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("username", name);
         // 用户不存在
-        if (userservice.getbyname(name) == null) {
+        if (usermapper.selectOne(queryWrapper) == null) {
 
             response.setContentType(
                     "application/json;charset=UTF-8");

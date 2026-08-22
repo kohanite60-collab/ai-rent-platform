@@ -1,5 +1,6 @@
 package org.example.airentplatform.demos.web.pojo;
 
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 
@@ -9,8 +10,14 @@ import lombok.Data;
  */
 @Data
 public class User {
+
     private String username;  // 用户名
+
     private String password;  // 密码
-    private int money;        // 金额
+
+    private int money;
+
+    @TableId
+    private int id;
 
 }
