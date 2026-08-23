@@ -1,30 +1,27 @@
 package org.example.airentplatform;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
 
 @SpringBootTest
 class AiRentPlatformApplicationTests {
 
     @Autowired
-    private ChatClient.Builder chatClientBuilder;
-
+    private RedisTemplate redisTemplate;
 
     @Test
     void contextLoads() {
 
-        ChatClient chatClient = chatClientBuilder.build();
+        // 写入
+        redisTemplate.opsForValue().set("name", "张三");
 
-        String result = chatClient
-                .prompt()
-                .user("你好，请简单介绍一下你自己")
-                .call()
-                .content();
+        // 读取
+        Object value = redisTemplate.opsForValue().get("name");
 
-        System.out.println(result);
+        System.out.println(value);
+
 
     }
-
 }
