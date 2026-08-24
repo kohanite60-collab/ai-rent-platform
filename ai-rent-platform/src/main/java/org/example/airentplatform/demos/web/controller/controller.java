@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/check")
 public class controller {
 
 
@@ -50,6 +50,12 @@ public class controller {
         session.setAttribute("user", username);
         return Result.success("登录成功");
 
+    }
+
+    @PostMapping("/logout")
+    public Result<String> logout(HttpSession session) {
+        session.invalidate();
+        return Result.success("退出成功");
     }
 
 
