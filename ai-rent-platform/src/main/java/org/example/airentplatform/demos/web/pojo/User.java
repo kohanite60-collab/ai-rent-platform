@@ -20,4 +20,6 @@ public class User {
     @TableId
     private int id;
 
+    private String role;
+
 }

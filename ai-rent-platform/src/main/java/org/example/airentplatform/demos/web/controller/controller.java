@@ -73,6 +73,8 @@ public class controller {
         user = new User();
         user.setUsername(username);
         user.setPassword(password);
+        user.setMoney(0);
+        user.setRole("user");
         int t=UserMapper.insert(user);
         if (t>0){return Result.success("注册成功");}
         return Result.error("注册失败");
