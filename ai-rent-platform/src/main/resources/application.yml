@@ -12,5 +12,23 @@ spring:
           model: deepseek-chat
   data:
     redis:
-      host: 192.168.246.129
+      host: 192.168.246.130
       port: 6379
+
+  mail:
+    host: smtp.qq.com
+    username: ${EMAIL}
+    password: ${PWD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+  rabbitmq:
+    host: 192.168.246.130
+    port: 5672
+    username: guest
+    password: guest

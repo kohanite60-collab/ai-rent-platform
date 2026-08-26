@@ -18,7 +18,7 @@ public class adminconfign implements WebMvcConfigurer {
 
 
         registry.addInterceptor(adminintercepter)
-                .addPathPatterns("/admin") ;// 拦截所有 URL。
+                .addPathPatterns("/admin") ;
 
     }
 

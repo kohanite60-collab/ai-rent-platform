@@ -8,6 +8,7 @@ import org.example.airentplatform.demos.web.pojo.Result;
 import org.example.airentplatform.demos.web.pojo.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,6 +30,7 @@ public class controller {
     private UserMapper UserMapper;
 
     @Autowired
+    @Qualifier("redisTemplate")
     private RedisTemplate redistemplate;
 
     @PostMapping("/login")
