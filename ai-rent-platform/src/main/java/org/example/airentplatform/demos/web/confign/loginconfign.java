@@ -15,7 +15,7 @@ public class loginconfign implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {			//拦截路径
-        registry.addInterceptor(loginintercepter).addPathPatterns("/**").excludePathPatterns("/user/login","/user/register","/index.html","/static/**","/","/ccs/**","/js/**","/images/**"); //表示拦截所有请求
+        registry.addInterceptor(loginintercepter).addPathPatterns("/**").excludePathPatterns("/user/login","/user/register","/index.html","/static/**","/","/ccs/**","/js/**","/images/**","/mail/**"); //表示拦截所有请求
     }
 
 

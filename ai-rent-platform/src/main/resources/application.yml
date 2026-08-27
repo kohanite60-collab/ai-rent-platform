@@ -12,7 +12,7 @@ spring:
           model: deepseek-chat
   data:
     redis:
-      host: 192.168.246.130
+      host: 192.168.246.131
       port: 6379
 
   mail:
@@ -28,7 +28,7 @@ spring:
             required: true
 
   rabbitmq:
-    host: 192.168.246.130
+    host: 192.168.246.131
     port: 5672
     username: guest
     password: guest
