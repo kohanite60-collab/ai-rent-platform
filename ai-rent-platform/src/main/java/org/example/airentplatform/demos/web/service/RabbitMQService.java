@@ -14,13 +14,11 @@ public class RabbitMQService {
     private RabbitTemplate rabbitTemplate;
 
     public String sendMsg(String msg) throws Exception {
-        try {
 
-            rabbitTemplate.convertAndSend(RabbitMQConfig.RABBITMQ_DEMO_DIRECT_EXCHANGE, RabbitMQConfig.RABBITMQ_DEMO_DIRECT_ROUTING, msg);
-            return "ok";
-        } catch (Exception e) {
-            e.printStackTrace();
-            return "error";
-        }
+        rabbitTemplate.convertAndSend(RabbitMQConfig.RABBITMQ_DEMO_DIRECT_EXCHANGE, RabbitMQConfig.RABBITMQ_DEMO_DIRECT_ROUTING, msg);
+        return "ok";
+
     }
+
+
 }
