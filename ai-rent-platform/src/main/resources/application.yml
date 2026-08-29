@@ -32,3 +32,12 @@ spring:
     port: 5672
     username: guest
     password: guest
+
+  alipay:
+    app-id: ${ALIPAY_APP_ID}
+    app-private-key: ${ALIPAY_APP_PRIVATE_KEY}
+    alipay-public-key: ${ALIPAY_PUBLIC_KEY}
+    gateway-url: https://openapi-sandbox.dl.alipaydev.com/gateway.do
+    sign-type: RSA2
+    charset: UTF-8
+    format: json
