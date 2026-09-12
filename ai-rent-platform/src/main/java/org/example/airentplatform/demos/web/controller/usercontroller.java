@@ -12,9 +12,10 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import static javax.swing.text.html.CSS.getAttribute;
-
+@RestController
 @Component
 @RequestMapping("/user")
 public class usercontroller {

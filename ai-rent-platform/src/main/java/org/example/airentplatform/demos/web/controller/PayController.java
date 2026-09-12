@@ -1,16 +1,22 @@
 package org.example.airentplatform.demos.web.controller;
 
 import com.alipay.api.AlipayApiException;
+import org.example.airentplatform.demos.web.mapper.UserMapper;
 import org.example.airentplatform.demos.web.pojo.Order;
 import org.example.airentplatform.demos.web.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 @Component
 public class PayController {
     @Autowired
     private PaymentService paymentService;
+
+    @Autowired
+    private UserMapper userMapper;
 
 
     @PostMapping("/pay")

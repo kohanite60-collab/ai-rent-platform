@@ -29,21 +29,36 @@ public class RabbitMQConsumer {
         queryWrapper.eq("taskNo", message);
         AiTask aitask=aiTaskMapper.selectOne(queryWrapper);
 
+        //任务不存在，直接结束，避免空指针
+        if (aitask == null) {
+            return;
+        }
+
         //将生成任务交给ai
         aitask.setStatus("进行中");
         aiTaskMapper.update(aitask,queryWrapper);
-        String poem = aiService.createPoem(aitask.getPrompt());
 
         //将构建状态同步到数据库
-        if (poem!=null){
+        try {
 
-            aitask.setStatus("构建完成");
-            aiTaskMapper.update(aitask,queryWrapper);
+            String poem = aiService.createPoem(aitask.getPrompt());
 
-        }else {
+            if (poem!=null){
+
+                aitask.setStatus("构建完成");
+                aiTaskMapper.update(aitask,queryWrapper);
+
+            }else {
+
+                aitask.setStatus("构建失败");
+                aiTaskMapper.update(aitask,queryWrapper);
+            }
+
+        } catch (Exception e) {
 
             aitask.setStatus("构建失败");
             aiTaskMapper.update(aitask,queryWrapper);
+            e.printStackTrace();
         }
 
     }

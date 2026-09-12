@@ -15,9 +15,10 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.UUID;
-
+@RestController
 @Component
 @RequestMapping("/ai")
 public class aicontroller {
@@ -38,7 +39,7 @@ public class aicontroller {
     @PostMapping("/poem")
     public Result create(HttpSession session,String prompt) throws Exception {
         //获取用户名
-        String username=(String) session.getAttribute("username");
+        String username=(String) session.getAttribute("user");
 
         //扣除算力
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
@@ -46,17 +47,23 @@ public class aicontroller {
 
         User user = userMapper.selectOne(queryWrapper);
         User user1=new User();
+        if (user.getMoney()<50){
+            return Result.error("余额不足");
+        }
         user1.setMoney(user.getMoney()-50);
         userMapper.update(user1, queryWrapper);
 
         //创建任务
         AiTask aitask=new AiTask();
-        String taskNo= UUID.randomUUID().toString();
+        String taskNo= UUID.randomUUID().toString();//唯一任务编号
+
+
         aitask.setTaskNo(taskNo);
         aitask.setPrompt(prompt);
         aitask.setStatus("排队中");
         aitask.setUsername(username);
         aitask.setTaskname("ai写诗");
+        aiTaskMapper.insert(aitask);
 
         //返回任务编号
         rabbitMQService.sendMsg(aitask.getTaskNo());
@@ -69,7 +76,7 @@ public class aicontroller {
         QueryWrapper<AiTask> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("taskNo", taskNo);
         AiTask aitask=aiTaskMapper.selectOne(queryWrapper);
-        return Result.success(aitask.getStatus());
+        return Result.success(aitask);
     }
 
     //ai作品展示接口
