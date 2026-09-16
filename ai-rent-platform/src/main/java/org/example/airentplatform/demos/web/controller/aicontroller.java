@@ -2,9 +2,12 @@ package org.example.airentplatform.demos.web.controller;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import jakarta.servlet.http.HttpSession;
+import org.example.airentplatform.demos.web.mapper.AiProductionMapper;
 import org.example.airentplatform.demos.web.mapper.AiTaskMapper;
 import org.example.airentplatform.demos.web.mapper.UserMapper;
+import org.example.airentplatform.demos.web.pojo.AiProduction;
 import org.example.airentplatform.demos.web.pojo.AiTask;
 import org.example.airentplatform.demos.web.pojo.Result;
 import org.example.airentplatform.demos.web.pojo.User;
@@ -17,6 +20,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
 import java.util.UUID;
 @RestController
 @Component
@@ -34,6 +38,9 @@ public class aicontroller {
 
     @Autowired
     private UserMapper userMapper;
+
+    @Autowired
+    private AiProductionMapper aiProductionMapper;
 
     //ai生成古诗接口
     @PostMapping("/poem")
@@ -80,8 +87,52 @@ public class aicontroller {
     }
 
     //ai作品展示接口
-    @GetMapping("/show")
+    @GetMapping("/show/list")
+    public Result show(int sortid){
+
+
+        QueryWrapper<AiProduction> sortid1 = new QueryWrapper<>();
+        sortid1.eq("sortid", sortid);
+        sortid1.orderByDesc("view");    //按热度降序排列
+
+        List<AiProduction> list = aiProductionMapper.selectList(sortid1);
+        if (list!=null){
+            return Result.success(list);
+        }
+
+        else return Result.success("暂无对应内容");
+    }
+
+
+    //ai作品详情接口
+    @GetMapping("/show/{id}")
     public Result show(String id){
+        AiProduction aiProduction = aiProductionMapper.selectById(id);
+
+        if (aiProduction!=null){
+            aiProduction.setView(aiProduction.getView()+1);//浏览量加一
+
+            aiProductionMapper.updateById(aiProduction);
+            return Result.success(aiProduction);
+        }
+        else return Result.success("暂无对应内容");
+    }
+
+    //ai优质作品上传接口
+    @PostMapping("/upload")
+    public Result upload(HttpSession session,String title,String data,int sortid){
+
+        String username=(String) session.getAttribute("user");
+        AiProduction aiProduction=new AiProduction();
+        aiProduction.setTitle(title);
+        aiProduction.setData(data);
+        aiProduction.setUser(username);
+        aiProduction.setSortid(sortid);
+        aiProduction.setView(0);
+
+
+        aiProductionMapper.insert(aiProduction);
+
         return null;
     }
 

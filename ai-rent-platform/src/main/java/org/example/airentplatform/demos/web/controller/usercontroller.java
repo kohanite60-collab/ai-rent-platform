@@ -3,6 +3,7 @@ package org.example.airentplatform.demos.web.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
+import jakarta.mail.Session;
 import jakarta.servlet.http.HttpSession;
 import org.example.airentplatform.demos.web.mapper.UserMapper;
 import org.example.airentplatform.demos.web.pojo.Result;
@@ -65,9 +66,25 @@ public class usercontroller {
 
     }
 
+    //绑定邮箱
+    @PostMapping("/email")
+    public Result updateemail(HttpSession session, String email) {
+
+        String username = (String) session.getAttribute("user");
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("username", username);
+        User user = UserMapper.selectOne(queryWrapper);
+        user.setEmail(email);
+
+        int row=UserMapper.update(user,queryWrapper);
+
+        if (row>0){ return Result.success("绑定成功");}
+
+        else { return Result.error("请勿绑定相同信息");}
 
 
 
+    }
 
 
 

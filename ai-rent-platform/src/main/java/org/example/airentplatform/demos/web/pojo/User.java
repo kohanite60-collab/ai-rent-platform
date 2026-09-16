@@ -17,6 +17,8 @@ public class User {
 
     private int money;
 
+    private String email;  // 邮箱
+
     @TableId
     private int id;
 

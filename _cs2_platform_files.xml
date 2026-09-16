@@ -1,0 +1,3915 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.IO.FileInfo</T>
+      <T>System.IO.FileSystemInfo</T>
+      <T>System.MarshalByRefObject</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg</ToString>
+    <Props>
+      <S N="Name">autoexec.cfg</S>
+      <I64 N="Length">447</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <Obj N="Directory" RefId="1">
+        <TN RefId="1">
+          <T>System.IO.DirectoryInfo</T>
+          <T>System.IO.FileSystemInfo</T>
+          <T>System.MarshalByRefObject</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</ToString>
+        <Props>
+          <S N="Name">cfg</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4757478+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4757478Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:27:51.9179081+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:27:51.9179081Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.654861+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.654861Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">cfg</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcfg_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg</S>
+      <S N="Extension">.cfg</S>
+      <DT N="CreationTime">2025-06-19T18:17:25.9705797+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T10:17:25.9705797Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:18:19.3713468+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:18:19.3713468Z</DT>
+      <DT N="LastWriteTime">2025-06-19T18:17:25.9705797+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T10:17:25.9705797Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="2">
+        <TN RefId="2">
+          <T>System.IO.UnixFileMode</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="3">
+        <TN RefId="3">
+          <T>System.IO.FileAttributes</T>
+          <T>System.Enum</T>
+          <T>System.ValueType</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <S N="PSChildName">autoexec.cfg</S>
+      <Obj N="PSDrive" RefId="4">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSDriveInfo</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>D</ToString>
+        <Props>
+          <S N="CurrentLocation"></S>
+          <S N="Name">D</S>
+          <Obj N="Provider" RefId="5">
+            <TN RefId="5">
+              <T>System.Management.Automation.ProviderInfo</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>Microsoft.PowerShell.Core\FileSystem</ToString>
+            <Props>
+              <S N="ImplementingType">Microsoft.PowerShell.Commands.FileSystemProvider</S>
+              <S N="HelpFile">System.Management.Automation.dll-Help.xml</S>
+              <S N="Name">FileSystem</S>
+              <S N="PSSnapIn">Microsoft.PowerShell.Core</S>
+              <S N="ModuleName">Microsoft.PowerShell.Core</S>
+              <Nil N="Module" />
+              <S N="Description"></S>
+              <S N="Capabilities">Filter, ShouldProcess, Credentials</S>
+              <S N="Home">C:\Users\26355</S>
+              <Obj N="Drives" RefId="6">
+                <TN RefId="6">
+                  <T>System.Collections.ObjectModel.Collection`1[[System.Management.Automation.PSDriveInfo, System.Management.Automation, Version=7.6.0.500, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]</T>
+                  <T>System.Object</T>
+                </TN>
+                <LST>
+                  <S>C</S>
+                  <Ref RefId="4" />
+                  <S>Temp</S>
+                </LST>
+              </Obj>
+              <B N="VolumeSeparatedByColon">true</B>
+              <C N="ItemSeparator">92</C>
+              <C N="AltItemSeparator">47</C>
+            </Props>
+          </Obj>
+          <S N="Root">D:\</S>
+          <S N="Description">Data</S>
+          <Nil N="MaximumSize" />
+          <Obj N="Credential" RefId="7">
+            <TN RefId="7">
+              <T>System.Management.Automation.PSCredential</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>System.Management.Automation.PSCredential</ToString>
+            <Props>
+              <Nil N="UserName" />
+              <Nil N="Password" />
+            </Props>
+          </Obj>
+          <Nil N="DisplayRoot" />
+          <B N="VolumeSeparatedByColon">true</B>
+        </Props>
+        <MS>
+          <I64 N="Used">378890772480</I64>
+          <I64 N="Free">213433028608</I64>
+        </MS>
+      </Obj>
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="8">
+        <TN RefId="8">
+          <T>System.Diagnostics.FileVersionInfo</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">autoexec</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\autoexec.cfg</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">autoexec.cfg</S>
+      <S N="LengthString">447</S>
+      <S N="LastWriteTimeString"> 2025/6/19    18:17</S>
+    </MS>
+  </Obj>
+  <Obj RefId="9">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5eautoexec.cfg</ToString>
+    <Props>
+      <S N="Name">f5eautoexec.cfg</S>
+      <I64 N="Length">657</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <Obj N="Directory" RefId="10">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</ToString>
+        <Props>
+          <S N="Name">cfg</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4757478+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4757478Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.8710462+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.8710462Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.654861+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.654861Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">cfg</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcfg_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5eautoexec.cfg</S>
+      <S N="Extension">.cfg</S>
+      <DT N="CreationTime">2025-08-23T21:23:33.6494253+08:00</DT>
+      <DT N="CreationTimeUtc">2025-08-23T13:23:33.6494253Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:06:31.1187421+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:06:31.1187421Z</DT>
+      <DT N="LastWriteTime">2025-08-23T21:23:33.6519528+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-08-23T13:23:33.6519528Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="11">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="12">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5eautoexec.cfg</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <S N="PSChildName">f5eautoexec.cfg</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="13">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5eautoexec.cfg_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5eautoexec.cfg</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">f5eautoexec</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5eautoexec.cfg</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">f5eautoexec.cfg</S>
+      <S N="LengthString">657</S>
+      <S N="LastWriteTimeString"> 2025/8/23    21:23</S>
+    </MS>
+  </Obj>
+  <Obj RefId="14">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5enostickjump.cfg</ToString>
+    <Props>
+      <S N="Name">f5enostickjump.cfg</S>
+      <I64 N="Length">17</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <Obj N="Directory" RefId="15">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</ToString>
+        <Props>
+          <S N="Name">cfg</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4757478+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4757478Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.8730457+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.8730457Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.654861+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.654861Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">cfg</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcfg_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5enostickjump.cfg</S>
+      <S N="Extension">.cfg</S>
+      <DT N="CreationTime">2025-08-23T21:29:00.8881183+08:00</DT>
+      <DT N="CreationTimeUtc">2025-08-23T13:29:00.8881183Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:06:31.1187421+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:06:31.1187421Z</DT>
+      <DT N="LastWriteTime">2025-08-23T21:29:00.8881183+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-08-23T13:29:00.8881183Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="16">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="17">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5enostickjump.cfg</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <S N="PSChildName">f5enostickjump.cfg</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="18">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5enostickjump.cfg_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5enostickjump.cfg</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">f5enostickjump</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\f5enostickjump.cfg</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">f5enostickjump.cfg</S>
+      <S N="LengthString">17</S>
+      <S N="LastWriteTimeString"> 2025/8/23    21:29</S>
+    </MS>
+  </Obj>
+  <Obj RefId="19">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\gamestate_integration_pwa.cfg</ToString>
+    <Props>
+      <S N="Name">gamestate_integration_pwa.cfg</S>
+      <I64 N="Length">420</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <Obj N="Directory" RefId="20">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</ToString>
+        <Props>
+          <S N="Name">cfg</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4757478+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4757478Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.8741322+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.8741322Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.654861+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.654861Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">cfg</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcfg_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\gamestate_integration_pwa.cfg</S>
+      <S N="Extension">.cfg</S>
+      <DT N="CreationTime">2025-06-19T18:09:06.1067116+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T10:09:06.1067116Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:18:15.7602851+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:18:15.7602851Z</DT>
+      <DT N="LastWriteTime">2026-09-14T19:30:37.6145055+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-09-14T11:30:37.6145055Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="21">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="22">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\gamestate_integration_pwa.cfg</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <S N="PSChildName">gamestate_integration_pwa.cfg</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="23">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\gamestate_integration_pwa.cfg_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\gamestate_integration_pwa.cfg</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">gamestate_integration_pwa</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\gamestate_integration_pwa.cfg</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">gamestate_integration_pwa.cfg</S>
+      <S N="LengthString">420</S>
+      <S N="LastWriteTimeString"> 2026/9/14    19:30</S>
+    </MS>
+  </Obj>
+  <Obj RefId="24">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa_userconfig76561199865172565.cfg</ToString>
+    <Props>
+      <S N="Name">pwa_userconfig76561199865172565.cfg</S>
+      <I64 N="Length">6684</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <Obj N="Directory" RefId="25">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</ToString>
+        <Props>
+          <S N="Name">cfg</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4757478+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4757478Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.8756359+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.8756359Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.654861+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.654861Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">cfg</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcfg_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa_userconfig76561199865172565.cfg</S>
+      <S N="Extension">.cfg</S>
+      <DT N="CreationTime">2026-01-10T15:03:34.2350442+08:00</DT>
+      <DT N="CreationTimeUtc">2026-01-10T07:03:34.2350442Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:06:31.1276922+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:06:31.1276922Z</DT>
+      <DT N="LastWriteTime">2026-09-14T20:14:29.7986626+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-09-14T12:14:29.7986626Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="26">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="27">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa_userconfig76561199865172565.cfg</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <S N="PSChildName">pwa_userconfig76561199865172565.cfg</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="28">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa_userconfig76561199865172565.cfg_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa_userconfig76561199865172565.cfg</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_userconfig76561199865172565</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa_userconfig76561199865172565.cfg</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_userconfig76561199865172565.cfg</S>
+      <S N="LengthString">6684</S>
+      <S N="LastWriteTimeString"> 2026/9/14    20:14</S>
+    </MS>
+  </Obj>
+  <Obj RefId="29">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa.cfg</ToString>
+    <Props>
+      <S N="Name">pwa.cfg</S>
+      <I64 N="Length">53</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <Obj N="Directory" RefId="30">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</ToString>
+        <Props>
+          <S N="Name">cfg</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4757478+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4757478Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.8776404+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.8776404Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.654861+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.654861Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">cfg</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcfg_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa.cfg</S>
+      <S N="Extension">.cfg</S>
+      <DT N="CreationTime">2025-08-20T11:10:35.8568678+08:00</DT>
+      <DT N="CreationTimeUtc">2025-08-20T03:10:35.8568678Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:06:31.1276922+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:06:31.1276922Z</DT>
+      <DT N="LastWriteTime">2026-09-10T21:10:05.5622826+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-09-10T13:10:05.5622826Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="31">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="32">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa.cfg</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg</S>
+      <S N="PSChildName">pwa.cfg</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="33">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa.cfg_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa.cfg</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg\pwa.cfg</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa.cfg</S>
+      <S N="LengthString">53</S>
+      <S N="LastWriteTimeString"> 2026/9/10    21:10</S>
+    </MS>
+  </Obj>
+  <Obj RefId="34">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_awp_row.vpk</ToString>
+    <Props>
+      <S N="Name">aim_awp_row.vpk</S>
+      <I64 N="Length">36781611</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="35">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:27:51.9266704+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:27:51.9266704Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_awp_row.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-06-19T20:20:24.9398877+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:24.9398877Z</DT>
+      <DT N="LastAccessTime">2025-06-25T17:01:40.9745914+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-06-25T09:01:40.9745914Z</DT>
+      <DT N="LastWriteTime">2025-06-19T20:20:24.9373888+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T12:20:24.9373888Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="36">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="37">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_awp_row.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">aim_awp_row.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="38">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_awp_row.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_awp_row.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">aim_awp_row</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_awp_row.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">aim_awp_row.vpk</S>
+      <S N="LengthString">36781611</S>
+      <S N="LastWriteTimeString"> 2025/6/19    20:20</S>
+    </MS>
+  </Obj>
+  <Obj RefId="39">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map.vpk</ToString>
+    <Props>
+      <S N="Name">aim_map.vpk</S>
+      <I64 N="Length">24968351</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="40">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.8838012+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.8838012Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-06-19T20:20:27.4185045+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:27.4185045Z</DT>
+      <DT N="LastAccessTime">2026-04-25T23:19:29.9742507+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-04-25T15:19:29.9742507Z</DT>
+      <DT N="LastWriteTime">2025-06-19T20:20:27.4174598+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T12:20:27.4174598Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="41">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="42">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">aim_map.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="43">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">aim_map</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">aim_map.vpk</S>
+      <S N="LengthString">24968351</S>
+      <S N="LastWriteTimeString"> 2025/6/19    20:20</S>
+    </MS>
+  </Obj>
+  <Obj RefId="44">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map2_go_pwa.vpk</ToString>
+    <Props>
+      <S N="Name">aim_map2_go_pwa.vpk</S>
+      <I64 N="Length">31559283</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="45">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.8903198+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.8903198Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map2_go_pwa.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-06-19T20:20:24.4932069+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:24.4932069Z</DT>
+      <DT N="LastAccessTime">2026-01-10T15:06:21.8635107+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-01-10T07:06:21.8635107Z</DT>
+      <DT N="LastWriteTime">2025-06-19T20:20:24.4912076+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T12:20:24.4912076Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="46">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="47">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map2_go_pwa.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">aim_map2_go_pwa.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="48">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map2_go_pwa.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map2_go_pwa.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">aim_map2_go_pwa</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_map2_go_pwa.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">aim_map2_go_pwa.vpk</S>
+      <S N="LengthString">31559283</S>
+      <S N="LastWriteTimeString"> 2025/6/19    20:20</S>
+    </MS>
+  </Obj>
+  <Obj RefId="49">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_newagewip.vpk</ToString>
+    <Props>
+      <S N="Name">aim_newagewip.vpk</S>
+      <I64 N="Length">53796096</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="50">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.8955362+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.8955362Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_newagewip.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-06-19T20:20:29.7100616+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:29.7100616Z</DT>
+      <DT N="LastAccessTime">2025-07-08T15:12:08.601003+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-07-08T07:12:08.601003Z</DT>
+      <DT N="LastWriteTime">2025-06-19T20:20:29.707061+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T12:20:29.707061Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="51">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="52">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_newagewip.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">aim_newagewip.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="53">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_newagewip.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_newagewip.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">aim_newagewip</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_newagewip.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">aim_newagewip.vpk</S>
+      <S N="LengthString">53796096</S>
+      <S N="LastWriteTimeString"> 2025/6/19    20:20</S>
+    </MS>
+  </Obj>
+  <Obj RefId="54">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_redline_fp.vpk</ToString>
+    <Props>
+      <S N="Name">aim_redline_fp.vpk</S>
+      <I64 N="Length">87184724</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="55">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9007351+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9007351Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_redline_fp.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-06-19T20:20:29.5373902+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:29.5373902Z</DT>
+      <DT N="LastAccessTime">2026-01-02T22:26:14.5178699+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-01-02T14:26:14.5178699Z</DT>
+      <DT N="LastWriteTime">2025-06-19T20:20:29.5353884+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T12:20:29.5353884Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="56">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="57">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_redline_fp.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">aim_redline_fp.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="58">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_redline_fp.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_redline_fp.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">aim_redline_fp</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_redline_fp.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">aim_redline_fp.vpk</S>
+      <S N="LengthString">87184724</S>
+      <S N="LastWriteTimeString"> 2025/6/19    20:20</S>
+    </MS>
+  </Obj>
+  <Obj RefId="59">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_rush.vpk</ToString>
+    <Props>
+      <S N="Name">aim_rush.vpk</S>
+      <I64 N="Length">37353925</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="60">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9072498+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9072498Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_rush.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-06-19T20:20:27.1830308+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:27.1830308Z</DT>
+      <DT N="LastAccessTime">2025-06-19T20:20:27.190502+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-06-19T12:20:27.190502Z</DT>
+      <DT N="LastWriteTime">2025-06-19T20:20:27.1803435+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T12:20:27.1803435Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="61">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="62">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_rush.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">aim_rush.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="63">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_rush.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_rush.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">aim_rush</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\aim_rush.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">aim_rush.vpk</S>
+      <S N="LengthString">37353925</S>
+      <S N="LastWriteTimeString"> 2025/6/19    20:20</S>
+    </MS>
+  </Obj>
+  <Obj RefId="64">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\am_warehouse2_pwa.vpk</ToString>
+    <Props>
+      <S N="Name">am_warehouse2_pwa.vpk</S>
+      <I64 N="Length">20624006</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="65">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9122585+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9122585Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\am_warehouse2_pwa.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-06-19T20:20:23.1623796+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:23.1623796Z</DT>
+      <DT N="LastAccessTime">2026-02-03T20:11:55.2283896+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-02-03T12:11:55.2283896Z</DT>
+      <DT N="LastWriteTime">2025-06-19T20:20:23.1592355+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T12:20:23.1592355Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="66">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="67">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\am_warehouse2_pwa.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">am_warehouse2_pwa.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="68">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\am_warehouse2_pwa.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\am_warehouse2_pwa.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">am_warehouse2_pwa</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\am_warehouse2_pwa.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">am_warehouse2_pwa.vpk</S>
+      <S N="LengthString">20624006</S>
+      <S N="LastWriteTimeString"> 2025/6/19    20:20</S>
+    </MS>
+  </Obj>
+  <Obj RefId="69">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\awp_india_hd.vpk</ToString>
+    <Props>
+      <S N="Name">awp_india_hd.vpk</S>
+      <I64 N="Length">271374033</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="70">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9176026+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9176026Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\awp_india_hd.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-06-19T20:20:43.0661697+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:43.0661697Z</DT>
+      <DT N="LastAccessTime">2025-06-19T20:20:43.1367117+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-06-19T12:20:43.1367117Z</DT>
+      <DT N="LastWriteTime">2025-06-19T20:20:43.0651691+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T12:20:43.0651691Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="71">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="72">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\awp_india_hd.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">awp_india_hd.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="73">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\awp_india_hd.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\awp_india_hd.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">awp_india_hd</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\awp_india_hd.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">awp_india_hd.vpk</S>
+      <S N="LengthString">271374033</S>
+      <S N="LastWriteTimeString"> 2025/6/19    20:20</S>
+    </MS>
+  </Obj>
+  <Obj RefId="74">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\cs_assault_classic.vpk</ToString>
+    <Props>
+      <S N="Name">cs_assault_classic.vpk</S>
+      <I64 N="Length">61548769</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="75">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9232546+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9232546Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\cs_assault_classic.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-07-04T14:51:15.7455172+08:00</DT>
+      <DT N="CreationTimeUtc">2025-07-04T06:51:15.7455172Z</DT>
+      <DT N="LastAccessTime">2025-07-04T14:51:15.7655144+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-07-04T06:51:15.7655144Z</DT>
+      <DT N="LastWriteTime">2025-07-04T14:51:15.7389991+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-07-04T06:51:15.7389991Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="76">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="77">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\cs_assault_classic.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">cs_assault_classic.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="78">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\cs_assault_classic.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\cs_assault_classic.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">cs_assault_classic</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\cs_assault_classic.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">cs_assault_classic.vpk</S>
+      <S N="LengthString">61548769</S>
+      <S N="LastWriteTimeString">  2025/7/4    14:51</S>
+    </MS>
+  </Obj>
+  <Obj RefId="79">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\fun_bounce.vpk</ToString>
+    <Props>
+      <S N="Name">fun_bounce.vpk</S>
+      <I64 N="Length">77414609</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="80">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9284293+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9284293Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\fun_bounce.vpk</S>
+      <S N="Extension">.vpk</S>
+      <DT N="CreationTime">2025-06-19T20:20:27.8350932+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:27.8350932Z</DT>
+      <DT N="LastAccessTime">2025-06-19T20:20:27.8581421+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-06-19T12:20:27.8581421Z</DT>
+      <DT N="LastWriteTime">2025-06-19T20:20:27.8324559+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-06-19T12:20:27.8324559Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="81">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="82">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\fun_bounce.vpk</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">fun_bounce.vpk</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="83">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\fun_bounce.vpk_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\fun_bounce.vpk</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">fun_bounce</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\fun_bounce.vpk</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">fun_bounce.vpk</S>
+      <S N="LengthString">77414609</S>
+      <S N="LastWriteTimeString"> 2025/6/19    20:20</S>
+    </MS>
+  </Obj>
+  <Obj RefId="84">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\perfectworldarena.json</ToString>
+    <Props>
+      <S N="Name">perfectworldarena.json</S>
+      <I64 N="Length">1891</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <Obj N="Directory" RefId="85">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</ToString>
+        <Props>
+          <S N="Name">maps</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-19T17:17:02.4901503+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-19T09:17:02.4901503Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9334243+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9334243Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:36:48.8518314+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:36:48.8518314Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">maps</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mmaps_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:36</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\perfectworldarena.json</S>
+      <S N="Extension">.json</S>
+      <DT N="CreationTime">2025-06-19T20:20:23.1698837+08:00</DT>
+      <DT N="CreationTimeUtc">2025-06-19T12:20:23.1698837Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:04:58.1926854+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:04:58.1926854Z</DT>
+      <DT N="LastWriteTime">2025-07-04T14:51:15.7675149+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-07-04T06:51:15.7675149Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="86">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="87">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\perfectworldarena.json</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps</S>
+      <S N="PSChildName">perfectworldarena.json</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="88">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\perfectworldarena.json_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\perfectworldarena.json</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">perfectworldarena</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps\perfectworldarena.json</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">perfectworldarena.json</S>
+      <S N="LengthString">1891</S>
+      <S N="LastWriteTimeString">  2025/7/4    14:51</S>
+    </MS>
+  </Obj>
+  <Obj RefId="89">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\flrstblood.vpcf_c</ToString>
+    <Props>
+      <S N="Name">flrstblood.vpcf_c</S>
+      <I64 N="Length">3260</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <Obj N="Directory" RefId="90">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</ToString>
+        <Props>
+          <S N="Name">particles</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-08-23T21:23:46.2637356+08:00</DT>
+          <DT N="CreationTimeUtc">2025-08-23T13:23:46.2637356Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.6895142+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.6895142Z</DT>
+          <DT N="LastWriteTime">2025-08-28T09:50:56.9485694+08:00</DT>
+          <DT N="LastWriteTimeUtc">2025-08-28T01:50:56.9485694Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">particles</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mparticles_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2025/8/28     9:50</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\flrstblood.vpcf_c</S>
+      <S N="Extension">.vpcf_c</S>
+      <DT N="CreationTime">2025-08-23T21:23:46.2697508+08:00</DT>
+      <DT N="CreationTimeUtc">2025-08-23T13:23:46.2697508Z</DT>
+      <DT N="LastAccessTime">2025-12-17T18:18:19.1781838+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-12-17T10:18:19.1781838Z</DT>
+      <DT N="LastWriteTime">2025-08-23T21:23:46.2697508+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-08-23T13:23:46.2697508Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="91">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="92">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\flrstblood.vpcf_c</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <S N="PSChildName">flrstblood.vpcf_c</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="93">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\flrstblood.vpcf_c_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\flrstblood.vpcf_c</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">flrstblood</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\flrstblood.vpcf_c</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">flrstblood.vpcf_c</S>
+      <S N="LengthString">3260</S>
+      <S N="LastWriteTimeString"> 2025/8/23    21:23</S>
+    </MS>
+  </Obj>
+  <Obj RefId="94">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\godlike.vpcf_c</ToString>
+    <Props>
+      <S N="Name">godlike.vpcf_c</S>
+      <I64 N="Length">3252</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <Obj N="Directory" RefId="95">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</ToString>
+        <Props>
+          <S N="Name">particles</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-08-23T21:23:46.2637356+08:00</DT>
+          <DT N="CreationTimeUtc">2025-08-23T13:23:46.2637356Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9407385+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9407385Z</DT>
+          <DT N="LastWriteTime">2025-08-28T09:50:56.9485694+08:00</DT>
+          <DT N="LastWriteTimeUtc">2025-08-28T01:50:56.9485694Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">particles</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mparticles_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2025/8/28     9:50</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\godlike.vpcf_c</S>
+      <S N="Extension">.vpcf_c</S>
+      <DT N="CreationTime">2025-08-23T21:23:46.2707506+08:00</DT>
+      <DT N="CreationTimeUtc">2025-08-23T13:23:46.2707506Z</DT>
+      <DT N="LastAccessTime">2025-12-17T18:18:19.1771855+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-12-17T10:18:19.1771855Z</DT>
+      <DT N="LastWriteTime">2025-08-23T21:23:46.2707506+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-08-23T13:23:46.2707506Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="96">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="97">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\godlike.vpcf_c</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <S N="PSChildName">godlike.vpcf_c</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="98">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\godlike.vpcf_c_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\godlike.vpcf_c</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">godlike</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\godlike.vpcf_c</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">godlike.vpcf_c</S>
+      <S N="LengthString">3252</S>
+      <S N="LastWriteTimeString"> 2025/8/23    21:23</S>
+    </MS>
+  </Obj>
+  <Obj RefId="99">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\ruobao.vpcf_c</ToString>
+    <Props>
+      <S N="Name">ruobao.vpcf_c</S>
+      <I64 N="Length">3254</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <Obj N="Directory" RefId="100">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</ToString>
+        <Props>
+          <S N="Name">particles</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-08-23T21:23:46.2637356+08:00</DT>
+          <DT N="CreationTimeUtc">2025-08-23T13:23:46.2637356Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.947741+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.947741Z</DT>
+          <DT N="LastWriteTime">2025-08-28T09:50:56.9485694+08:00</DT>
+          <DT N="LastWriteTimeUtc">2025-08-28T01:50:56.9485694Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">particles</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mparticles_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2025/8/28     9:50</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\ruobao.vpcf_c</S>
+      <S N="Extension">.vpcf_c</S>
+      <DT N="CreationTime">2025-08-23T21:23:46.2717507+08:00</DT>
+      <DT N="CreationTimeUtc">2025-08-23T13:23:46.2717507Z</DT>
+      <DT N="LastAccessTime">2025-12-17T18:18:19.1781838+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-12-17T10:18:19.1781838Z</DT>
+      <DT N="LastWriteTime">2025-08-23T21:23:46.2717507+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-08-23T13:23:46.2717507Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="101">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="102">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\ruobao.vpcf_c</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <S N="PSChildName">ruobao.vpcf_c</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="103">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\ruobao.vpcf_c_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\ruobao.vpcf_c</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">ruobao</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\ruobao.vpcf_c</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">ruobao.vpcf_c</S>
+      <S N="LengthString">3254</S>
+      <S N="LastWriteTimeString"> 2025/8/23    21:23</S>
+    </MS>
+  </Obj>
+  <Obj RefId="104">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\start.vpcf_c</ToString>
+    <Props>
+      <S N="Name">start.vpcf_c</S>
+      <I64 N="Length">3253</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <Obj N="Directory" RefId="105">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</ToString>
+        <Props>
+          <S N="Name">particles</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-08-23T21:23:46.2637356+08:00</DT>
+          <DT N="CreationTimeUtc">2025-08-23T13:23:46.2637356Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9537423+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9537423Z</DT>
+          <DT N="LastWriteTime">2025-08-28T09:50:56.9485694+08:00</DT>
+          <DT N="LastWriteTimeUtc">2025-08-28T01:50:56.9485694Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">particles</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mparticles_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2025/8/28     9:50</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\start.vpcf_c</S>
+      <S N="Extension">.vpcf_c</S>
+      <DT N="CreationTime">2025-08-23T21:23:46.2717507+08:00</DT>
+      <DT N="CreationTimeUtc">2025-08-23T13:23:46.2717507Z</DT>
+      <DT N="LastAccessTime">2025-12-17T18:18:19.1771855+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-12-17T10:18:19.1771855Z</DT>
+      <DT N="LastWriteTime">2025-08-23T21:23:46.2727501+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-08-23T13:23:46.2727501Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="106">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="107">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\start.vpcf_c</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <S N="PSChildName">start.vpcf_c</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="108">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\start.vpcf_c_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\start.vpcf_c</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">start</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\start.vpcf_c</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">start.vpcf_c</S>
+      <S N="LengthString">3253</S>
+      <S N="LastWriteTimeString"> 2025/8/23    21:23</S>
+    </MS>
+  </Obj>
+  <Obj RefId="109">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\win.vpcf_c</ToString>
+    <Props>
+      <S N="Name">win.vpcf_c</S>
+      <I64 N="Length">3230</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <Obj N="Directory" RefId="110">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</ToString>
+        <Props>
+          <S N="Name">particles</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-08-23T21:23:46.2637356+08:00</DT>
+          <DT N="CreationTimeUtc">2025-08-23T13:23:46.2637356Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9612829+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9612829Z</DT>
+          <DT N="LastWriteTime">2025-08-28T09:50:56.9485694+08:00</DT>
+          <DT N="LastWriteTimeUtc">2025-08-28T01:50:56.9485694Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">particles</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mparticles_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2025/8/28     9:50</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\win.vpcf_c</S>
+      <S N="Extension">.vpcf_c</S>
+      <DT N="CreationTime">2025-08-23T21:23:46.2727501+08:00</DT>
+      <DT N="CreationTimeUtc">2025-08-23T13:23:46.2727501Z</DT>
+      <DT N="LastAccessTime">2025-12-17T18:18:19.1781838+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-12-17T10:18:19.1781838Z</DT>
+      <DT N="LastWriteTime">2025-08-23T21:23:46.2727501+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-08-23T13:23:46.2727501Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="111">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="112">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\win.vpcf_c</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <S N="PSChildName">win.vpcf_c</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="113">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\win.vpcf_c_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\win.vpcf_c</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">win</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\win.vpcf_c</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">win.vpcf_c</S>
+      <S N="LengthString">3230</S>
+      <S N="LastWriteTimeString"> 2025/8/23    21:23</S>
+    </MS>
+  </Obj>
+  <Obj RefId="114">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\xd.vpcf_c</ToString>
+    <Props>
+      <S N="Name">xd.vpcf_c</S>
+      <I64 N="Length">3223</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <Obj N="Directory" RefId="115">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</ToString>
+        <Props>
+          <S N="Name">particles</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-08-23T21:23:46.2637356+08:00</DT>
+          <DT N="CreationTimeUtc">2025-08-23T13:23:46.2637356Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9659258+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9659258Z</DT>
+          <DT N="LastWriteTime">2025-08-28T09:50:56.9485694+08:00</DT>
+          <DT N="LastWriteTimeUtc">2025-08-28T01:50:56.9485694Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">particles</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mparticles_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2025/8/28     9:50</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\xd.vpcf_c</S>
+      <S N="Extension">.vpcf_c</S>
+      <DT N="CreationTime">2025-08-23T21:23:46.2737499+08:00</DT>
+      <DT N="CreationTimeUtc">2025-08-23T13:23:46.2737499Z</DT>
+      <DT N="LastAccessTime">2025-12-17T18:18:19.1791839+08:00</DT>
+      <DT N="LastAccessTimeUtc">2025-12-17T10:18:19.1791839Z</DT>
+      <DT N="LastWriteTime">2025-08-23T21:23:46.2737499+08:00</DT>
+      <DT N="LastWriteTimeUtc">2025-08-23T13:23:46.2737499Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="116">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="117">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\xd.vpcf_c</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles</S>
+      <S N="PSChildName">xd.vpcf_c</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="118">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\xd.vpcf_c_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\xd.vpcf_c</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">xd</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\particles\xd.vpcf_c</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">xd.vpcf_c</S>
+      <S N="LengthString">3223</S>
+      <S N="LastWriteTimeString"> 2025/8/23    21:23</S>
+    </MS>
+  </Obj>
+  <Obj RefId="119">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260817.log</ToString>
+    <Props>
+      <S N="Name">pwa_76561199865172565_20260817.log</S>
+      <I64 N="Length">442113</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="120">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9720023+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9720023Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260817.log</S>
+      <S N="Extension">.log</S>
+      <DT N="CreationTime">2026-08-17T16:29:40.6650631+08:00</DT>
+      <DT N="CreationTimeUtc">2026-08-17T08:29:40.6650631Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:26:17.6558139+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:26:17.6558139Z</DT>
+      <DT N="LastWriteTime">2026-08-17T20:06:58.479328+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-08-17T12:06:58.479328Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="121">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="122">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260817.log</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_76561199865172565_20260817.log</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="123">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260817.log_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260817.log</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_76561199865172565_20260817</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260817.log</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_76561199865172565_20260817.log</S>
+      <S N="LengthString">442113</S>
+      <S N="LastWriteTimeString"> 2026/8/17    20:06</S>
+    </MS>
+  </Obj>
+  <Obj RefId="124">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260818.log</ToString>
+    <Props>
+      <S N="Name">pwa_76561199865172565_20260818.log</S>
+      <I64 N="Length">358650</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="125">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9729809+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9729809Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260818.log</S>
+      <S N="Extension">.log</S>
+      <DT N="CreationTime">2026-08-18T12:22:01.1576567+08:00</DT>
+      <DT N="CreationTimeUtc">2026-08-18T04:22:01.1576567Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:26:17.6628189+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:26:17.6628189Z</DT>
+      <DT N="LastWriteTime">2026-08-18T21:52:13.5516653+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-08-18T13:52:13.5516653Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="126">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="127">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260818.log</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_76561199865172565_20260818.log</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="128">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260818.log_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260818.log</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_76561199865172565_20260818</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260818.log</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_76561199865172565_20260818.log</S>
+      <S N="LengthString">358650</S>
+      <S N="LastWriteTimeString"> 2026/8/18    21:52</S>
+    </MS>
+  </Obj>
+  <Obj RefId="129">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260819.log</ToString>
+    <Props>
+      <S N="Name">pwa_76561199865172565_20260819.log</S>
+      <I64 N="Length">49523</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="130">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9739364+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9739364Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260819.log</S>
+      <S N="Extension">.log</S>
+      <DT N="CreationTime">2026-08-19T10:48:16.3486617+08:00</DT>
+      <DT N="CreationTimeUtc">2026-08-19T02:48:16.3486617Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:26:17.6658272+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:26:17.6658272Z</DT>
+      <DT N="LastWriteTime">2026-08-19T10:48:59.5120236+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-08-19T02:48:59.5120236Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="131">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="132">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260819.log</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_76561199865172565_20260819.log</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="133">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260819.log_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260819.log</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_76561199865172565_20260819</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260819.log</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_76561199865172565_20260819.log</S>
+      <S N="LengthString">49523</S>
+      <S N="LastWriteTimeString"> 2026/8/19    10:48</S>
+    </MS>
+  </Obj>
+  <Obj RefId="134">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260830.log</ToString>
+    <Props>
+      <S N="Name">pwa_76561199865172565_20260830.log</S>
+      <I64 N="Length">184276</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="135">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9755282+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9755282Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260830.log</S>
+      <S N="Extension">.log</S>
+      <DT N="CreationTime">2026-08-30T16:16:00.0705485+08:00</DT>
+      <DT N="CreationTimeUtc">2026-08-30T08:16:00.0705485Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:26:17.6688312+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:26:17.6688312Z</DT>
+      <DT N="LastWriteTime">2026-08-30T20:16:57.8385975+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-08-30T12:16:57.8385975Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="136">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="137">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260830.log</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_76561199865172565_20260830.log</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="138">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260830.log_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260830.log</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_76561199865172565_20260830</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260830.log</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_76561199865172565_20260830.log</S>
+      <S N="LengthString">184276</S>
+      <S N="LastWriteTimeString"> 2026/8/30    20:16</S>
+    </MS>
+  </Obj>
+  <Obj RefId="139">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260910.log</ToString>
+    <Props>
+      <S N="Name">pwa_76561199865172565_20260910.log</S>
+      <I64 N="Length">629638</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="140">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.976589+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.976589Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260910.log</S>
+      <S N="Extension">.log</S>
+      <DT N="CreationTime">2026-09-10T20:44:13.1495105+08:00</DT>
+      <DT N="CreationTimeUtc">2026-09-10T12:44:13.1495105Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:26:17.6793549+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:26:17.6793549Z</DT>
+      <DT N="LastWriteTime">2026-09-11T00:04:48.4103439+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-09-10T16:04:48.4103439Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="141">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="142">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260910.log</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_76561199865172565_20260910.log</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="143">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260910.log_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260910.log</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_76561199865172565_20260910</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260910.log</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_76561199865172565_20260910.log</S>
+      <S N="LengthString">629638</S>
+      <S N="LastWriteTimeString"> 2026/9/11     0:04</S>
+    </MS>
+  </Obj>
+  <Obj RefId="144">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260911.log</ToString>
+    <Props>
+      <S N="Name">pwa_76561199865172565_20260911.log</S>
+      <I64 N="Length">1010184</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="145">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9776107+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9776107Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260911.log</S>
+      <S N="Extension">.log</S>
+      <DT N="CreationTime">2026-09-11T12:18:01.6905229+08:00</DT>
+      <DT N="CreationTimeUtc">2026-09-11T04:18:01.6905229Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:26:17.6963563+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:26:17.6963563Z</DT>
+      <DT N="LastWriteTime">2026-09-11T22:44:27.5346909+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-09-11T14:44:27.5346909Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="146">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="147">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260911.log</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_76561199865172565_20260911.log</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="148">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260911.log_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260911.log</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_76561199865172565_20260911</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260911.log</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_76561199865172565_20260911.log</S>
+      <S N="LengthString">1010184</S>
+      <S N="LastWriteTimeString"> 2026/9/11    22:44</S>
+    </MS>
+  </Obj>
+  <Obj RefId="149">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260912.log</ToString>
+    <Props>
+      <S N="Name">pwa_76561199865172565_20260912.log</S>
+      <I64 N="Length">333439</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="150">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9786092+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9786092Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260912.log</S>
+      <S N="Extension">.log</S>
+      <DT N="CreationTime">2026-09-12T09:34:28.4235867+08:00</DT>
+      <DT N="CreationTimeUtc">2026-09-12T01:34:28.4235867Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:26:17.7023581+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:26:17.7023581Z</DT>
+      <DT N="LastWriteTime">2026-09-12T15:54:47.3977167+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-09-12T07:54:47.3977167Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="151">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="152">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260912.log</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_76561199865172565_20260912.log</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="153">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260912.log_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260912.log</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_76561199865172565_20260912</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260912.log</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_76561199865172565_20260912.log</S>
+      <S N="LengthString">333439</S>
+      <S N="LastWriteTimeString"> 2026/9/12    15:54</S>
+    </MS>
+  </Obj>
+  <Obj RefId="154">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260913.log</ToString>
+    <Props>
+      <S N="Name">pwa_76561199865172565_20260913.log</S>
+      <I64 N="Length">411711</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="155">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9796432+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9796432Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260913.log</S>
+      <S N="Extension">.log</S>
+      <DT N="CreationTime">2026-09-13T20:08:45.5672568+08:00</DT>
+      <DT N="CreationTimeUtc">2026-09-13T12:08:45.5672568Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:26:17.7160038+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:26:17.7160038Z</DT>
+      <DT N="LastWriteTime">2026-09-13T20:25:12.806545+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-09-13T12:25:12.806545Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="156">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="157">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260913.log</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_76561199865172565_20260913.log</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="158">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260913.log_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260913.log</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_76561199865172565_20260913</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260913.log</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_76561199865172565_20260913.log</S>
+      <S N="LengthString">411711</S>
+      <S N="LastWriteTimeString"> 2026/9/13    20:25</S>
+    </MS>
+  </Obj>
+  <Obj RefId="159">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260914.log</ToString>
+    <Props>
+      <S N="Name">pwa_76561199865172565_20260914.log</S>
+      <I64 N="Length">447630</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="160">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9806172+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9806172Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260914.log</S>
+      <S N="Extension">.log</S>
+      <DT N="CreationTime">2026-09-14T14:27:57.5788569+08:00</DT>
+      <DT N="CreationTimeUtc">2026-09-14T06:27:57.5788569Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:26:17.7240084+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:26:17.7240084Z</DT>
+      <DT N="LastWriteTime">2026-09-14T20:14:27.8054173+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-09-14T12:14:27.8054173Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="161">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="162">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260914.log</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_76561199865172565_20260914.log</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="163">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260914.log_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260914.log</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_76561199865172565_20260914</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_76561199865172565_20260914.log</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_76561199865172565_20260914.log</S>
+      <S N="LengthString">447630</S>
+      <S N="LastWriteTimeString"> 2026/9/14    20:14</S>
+    </MS>
+  </Obj>
+  <Obj RefId="164">
+    <TNRef RefId="0" />
+    <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_cdn_probe.txt</ToString>
+    <Props>
+      <S N="Name">pwa_cdn_probe.txt</S>
+      <I64 N="Length">18</I64>
+      <S N="DirectoryName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <Obj N="Directory" RefId="165">
+        <TNRef RefId="1" />
+        <ToString>D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</ToString>
+        <Props>
+          <S N="Name">csgo</S>
+          <S N="Parent">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game</S>
+          <S N="Root">D:\</S>
+          <B N="Exists">true</B>
+          <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <S N="Extension"></S>
+          <DT N="CreationTime">2025-06-17T15:35:09.7587602+08:00</DT>
+          <DT N="CreationTimeUtc">2025-06-17T07:35:09.7587602Z</DT>
+          <DT N="LastAccessTime">2026-09-14T22:28:26.9825361+08:00</DT>
+          <DT N="LastAccessTimeUtc">2026-09-14T14:28:26.9825361Z</DT>
+          <DT N="LastWriteTime">2026-09-14T21:51:52.0491438+08:00</DT>
+          <DT N="LastWriteTimeUtc">2026-09-14T13:51:52.0491438Z</DT>
+          <Nil N="LinkTarget" />
+          <S N="UnixFileMode">-1</S>
+          <S N="Attributes">Directory</S>
+        </Props>
+        <MS>
+          <S N="Mode">d----</S>
+          <S N="ModeWithoutHardLink">d----</S>
+          <S N="BaseName">csgo</S>
+          <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+          <Nil N="Target" />
+          <Nil N="LinkType" />
+          <S N="NameString">_x001B_[44;1mcsgo_x001B_[0m</S>
+          <S N="LengthString"></S>
+          <S N="LastWriteTimeString"> 2026/9/14    21:51</S>
+        </MS>
+      </Obj>
+      <B N="IsReadOnly">false</B>
+      <B N="Exists">true</B>
+      <S N="FullName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_cdn_probe.txt</S>
+      <S N="Extension">.txt</S>
+      <DT N="CreationTime">2026-09-10T20:42:09.233941+08:00</DT>
+      <DT N="CreationTimeUtc">2026-09-10T12:42:09.233941Z</DT>
+      <DT N="LastAccessTime">2026-09-14T22:06:31.6278599+08:00</DT>
+      <DT N="LastAccessTimeUtc">2026-09-14T14:06:31.6278599Z</DT>
+      <DT N="LastWriteTime">2026-09-10T20:42:09.233941+08:00</DT>
+      <DT N="LastWriteTimeUtc">2026-09-10T12:42:09.233941Z</DT>
+      <Nil N="LinkTarget" />
+      <Obj N="UnixFileMode" RefId="166">
+        <TNRef RefId="2" />
+        <ToString>-1</ToString>
+        <I32>-1</I32>
+      </Obj>
+      <Obj N="Attributes" RefId="167">
+        <TNRef RefId="3" />
+        <ToString>Archive</ToString>
+        <I32>32</I32>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="PSPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_cdn_probe.txt</S>
+      <S N="PSParentPath">Microsoft.PowerShell.Core\FileSystem::D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo</S>
+      <S N="PSChildName">pwa_cdn_probe.txt</S>
+      <Ref N="PSDrive" RefId="4" />
+      <Ref N="PSProvider" RefId="5" />
+      <B N="PSIsContainer">false</B>
+      <S N="Mode">-a---</S>
+      <S N="ModeWithoutHardLink">-a---</S>
+      <Obj N="VersionInfo" RefId="168">
+        <TNRef RefId="8" />
+        <ToString>File:             D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_cdn_probe.txt_x000D__x000A_InternalName:     _x000D__x000A_OriginalFilename: _x000D__x000A_FileVersion:      _x000D__x000A_FileDescription:  _x000D__x000A_Product:          _x000D__x000A_ProductVersion:   _x000D__x000A_Debug:            False_x000D__x000A_Patched:          False_x000D__x000A_PreRelease:       False_x000D__x000A_PrivateBuild:     False_x000D__x000A_SpecialBuild:     False_x000D__x000A_Language:         _x000D__x000A_</ToString>
+        <Props>
+          <Nil N="Comments" />
+          <Nil N="CompanyName" />
+          <I32 N="FileBuildPart">0</I32>
+          <Nil N="FileDescription" />
+          <I32 N="FileMajorPart">0</I32>
+          <I32 N="FileMinorPart">0</I32>
+          <S N="FileName">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_cdn_probe.txt</S>
+          <I32 N="FilePrivatePart">0</I32>
+          <Nil N="FileVersion" />
+          <Nil N="InternalName" />
+          <B N="IsDebug">false</B>
+          <B N="IsPatched">false</B>
+          <B N="IsPrivateBuild">false</B>
+          <B N="IsPreRelease">false</B>
+          <B N="IsSpecialBuild">false</B>
+          <Nil N="Language" />
+          <Nil N="LegalCopyright" />
+          <Nil N="LegalTrademarks" />
+          <Nil N="OriginalFilename" />
+          <Nil N="PrivateBuild" />
+          <I32 N="ProductBuildPart">0</I32>
+          <I32 N="ProductMajorPart">0</I32>
+          <I32 N="ProductMinorPart">0</I32>
+          <Nil N="ProductName" />
+          <I32 N="ProductPrivatePart">0</I32>
+          <Nil N="ProductVersion" />
+          <Nil N="SpecialBuild" />
+        </Props>
+        <MS>
+          <Version N="FileVersionRaw">0.0.0.0</Version>
+          <Version N="ProductVersionRaw">0.0.0.0</Version>
+        </MS>
+      </Obj>
+      <S N="BaseName">pwa_cdn_probe</S>
+      <S N="ResolvedTarget">D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\pwa_cdn_probe.txt</S>
+      <Nil N="Target" />
+      <Nil N="LinkType" />
+      <S N="NameString">pwa_cdn_probe.txt</S>
+      <S N="LengthString">18</S>
+      <S N="LastWriteTimeString"> 2026/9/10    20:42</S>
+    </MS>
+  </Obj>
+</Objs>
