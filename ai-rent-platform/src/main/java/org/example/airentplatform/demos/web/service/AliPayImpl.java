@@ -2,7 +2,7 @@ package org.example.airentplatform.demos.web.service;
 
 import com.alipay.api.AlipayApiException;
 import org.example.airentplatform.demos.web.payment.AliPay;
-import org.example.airentplatform.demos.web.pojo.Order;
+import org.example.airentplatform.demos.web.pojo.PayOrderParams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ public class AliPayImpl implements PaymentService{
     private AliPay alipay;
 
     @Override
-    public String aliPay(Order order) throws AlipayApiException {
+    public String aliPay(PayOrderParams order) throws AlipayApiException {
         return alipay.pay(order);
     }
 

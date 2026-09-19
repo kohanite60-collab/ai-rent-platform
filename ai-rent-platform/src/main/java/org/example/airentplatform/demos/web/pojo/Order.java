@@ -1,20 +1,13 @@
 package org.example.airentplatform.demos.web.pojo;
 
-import lombok.AllArgsConstructor;
+
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.experimental.Accessors;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Accessors(chain=true)
 public class Order {
-    private int id;
+    private String id; //唯一订单号
     private String user;
-    private String product;
-    private int rmb;
-    private int money;
-    private String status;
+    private int spuId;
 
+    private int status;  //0未完成，1待付款，2支付成功，3交易关闭，4交易完成
 }

@@ -43,4 +43,27 @@ public class AliPayConfig {
      * 数据格式
      */
     private String format;
+
+
+    /**
+     * 服务器异步通知页面路径,需http://格式的完整路径
+     * 踩坑:不能加?type=abc这类自定义参数
+     *
+     * 这里用于支付宝支付完成后，支付宝支付信息调用后端的路径
+     */
+    private String notifyUrl;
+
+
+    /**
+     * 页面跳转同步通知页面路径,需http://格式的完整路径
+     * 踩坑:不能加?type=abc这类自定义参数
+     *
+     * 这里用于用户完成支付之后，跳转到的前端页面
+     */
+    private String returnUrl;
+
+
+
+
+
 }

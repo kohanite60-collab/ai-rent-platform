@@ -12,7 +12,7 @@ public class UserLoginDto {
 
     private String password;
 
-    private String email;
+    private String  email;
 
     private String code; //邮箱验证码
 }

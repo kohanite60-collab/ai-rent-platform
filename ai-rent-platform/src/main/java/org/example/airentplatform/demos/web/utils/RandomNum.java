@@ -5,6 +5,8 @@ import java.security.SecureRandom;
 public class RandomNum {
 
 
+    //生成随机六位验证码
+
     private static final SecureRandom RANDOM = new SecureRandom();
 
     public static String generateCode() {

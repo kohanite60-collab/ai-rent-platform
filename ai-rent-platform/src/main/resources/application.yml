@@ -41,3 +41,5 @@ spring:
     sign-type: RSA2
     charset: UTF-8
     format: json
+    return-url: http://localhost:5173/pay/success
+    notify-url: http://你的后端地址/alipay/notify

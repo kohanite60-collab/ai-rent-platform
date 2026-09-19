@@ -6,7 +6,7 @@ import com.alipay.api.AlipayClient;
 import com.alipay.api.DefaultAlipayClient;
 import com.alipay.api.request.AlipayTradePagePayRequest;
 import org.example.airentplatform.demos.web.confign.AliPayConfig;
-import org.example.airentplatform.demos.web.pojo.Order;
+import org.example.airentplatform.demos.web.pojo.PayOrderParams;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -21,7 +21,7 @@ public class AliPay {
     private AliPayConfig alipayConfig;
 
 
-    public String pay(Order order) throws AlipayApiException {
+    public String pay(PayOrderParams order) throws AlipayApiException {
 
         // 支付宝网关
         String serverUrl = alipayConfig.getGatewayUrl();
@@ -38,25 +38,35 @@ public class AliPay {
         // 签名方式
         String signType = alipayConfig.getSignType();
 
+
+        // 页面跳转同步通知页面路径
+        String returnUrl = alipayConfig.getReturnUrl();
+        // 服务器异步通知页面路径
+        String notifyUrl = alipayConfig.getNotifyUrl();
+
+
+
+
         // 1、获得初始化的AlipayClient
         AlipayClient alipayClient = new DefaultAlipayClient(
                 serverUrl, appId, privateKey, format, charset, alipayPublicKey, signType);
 
+
+
+
         // 2、设置请求参数
         AlipayTradePagePayRequest alipayRequest = new AlipayTradePagePayRequest();
-
+        // 页面跳转同步通知页面路径
+        alipayRequest.setReturnUrl(returnUrl);
+        // 服务器异步通知页面路径
+        alipayRequest.setNotifyUrl(notifyUrl);
         // 封装参数(以json格式封装)
-        Map<String, Object> bizContent = new HashMap<>();
-
-        bizContent.put("out_trade_no", String.valueOf(System.currentTimeMillis()));
-        bizContent.put("total_amount", String.valueOf(order.getRmb()));
-        bizContent.put("subject", order.getProduct());
-        bizContent.put("product_code", "FAST_INSTANT_TRADE_PAY");
-
-        alipayRequest.setBizContent(JSON.toJSONString(bizContent));
+        alipayRequest.setBizContent(JSON.toJSONString(order));
 
         // 3、请求支付宝进行付款，并获取支付结果
         String result = alipayClient.pageExecute(alipayRequest).getBody();
+
+
         // 返回付款信息
         return result;
     }
