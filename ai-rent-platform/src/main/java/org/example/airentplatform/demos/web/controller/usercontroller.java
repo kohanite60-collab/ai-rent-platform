@@ -52,10 +52,26 @@ public class usercontroller {
         UpdateWrapper<User> updateWrapper = new UpdateWrapper<>();
         updateWrapper.eq("username", username0);
 
+        // 入库前查重：新名字已被别人占用则拒绝，避免库里同名两行
+        // 导致 selectOne 抛 TooManyResultsException（同名提交=没改名，不算重复）
+        if (username != null && !username.isBlank() && !username.equals(username0)) {
+            QueryWrapper<User> checkWrapper = new QueryWrapper<>();
+            checkWrapper.eq("username", username);
+            if (UserMapper.selectOne(checkWrapper) != null) {
+                return Result.error("用户名已存在");
+            }
+        }
+
             int t=UserMapper.update(user,updateWrapper);
 
-
-            if (t>0){return Result.success("修改成功");}
+            // 改了用户名时同步刷新 Session，否则后续请求按旧名查库查不到，
+            // 会被登录拦截器判为"用户不存在"强制登出，管理员侧还会触发 NPE
+            if (t>0){
+                if (username != null && !username.isBlank()) {
+                    session.setAttribute("user", username);
+                }
+                return Result.success("修改成功");
+            }
 
 
 

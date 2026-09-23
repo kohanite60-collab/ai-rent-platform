@@ -1,7 +1,11 @@
 package org.example.airentplatform.demos.web.utils;
 
+import org.springframework.stereotype.Component;
+
 import java.security.SecureRandom;
 
+
+@Component
 public class RandomNum {
 
 

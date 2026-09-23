@@ -20,12 +20,6 @@
         </dependency>
 
         <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>3.0.3</version>
-        </dependency>
-
-        <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
@@ -58,10 +52,12 @@
             <artifactId>commons-pool2</artifactId>
         </dependency>
 
+        <!-- MyBatis-Plus 的 Spring Boot 3 专用 starter（3.4.0 的 mybatis-plus-boot-starter
+             只通过 spring.factories 注册自动配置，Boot 3 不读该文件，会导致自动配置失效） -->
         <dependency>
             <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.4.0</version>
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+            <version>3.5.9</version>
         </dependency>
 
         <dependency>
@@ -129,6 +125,12 @@
                     <source>17</source>
                     <target>17</target>
                     <encoding>UTF-8</encoding>
+                    <!-- 必须保留：Controller 大量使用「散装参数」（如 register(String username, String password)），
+                         Spring MVC 依赖编译期保留的方法参数名来绑定请求参数。
+                         本项目用 dependencyManagement 引入 BOM 而非继承 spring-boot-starter-parent，
+                         拿不到 parent 里预设的 -parameters，漏掉这行会导致这些接口全部 500。
+                         （登录接口收的是 UserLoginDto 对象，所以不受影响，容易漏测。） -->
+                    <parameters>true</parameters>
                 </configuration>
             </plugin>
             <plugin>
@@ -137,7 +139,6 @@
                 <version>3.4.12</version>
                 <configuration>
                     <mainClass>org.example.airentplatform.AiRentPlatformApplication</mainClass>
-                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>

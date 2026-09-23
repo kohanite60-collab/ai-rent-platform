@@ -30,7 +30,14 @@ public class adminintercepter implements HandlerInterceptor {
             QueryWrapper<User> queryWrapper=new QueryWrapper<>();
             queryWrapper.eq("username",username);
 
-            String role=usermapper.selectOne(queryWrapper).getRole();
+            // Session 里的用户名在库中可能已不存在（如用户改过用户名），
+            // 不判空会 NPE 导致 /admin/** 全部 500
+            User dbUser=usermapper.selectOne(queryWrapper);
+            if(dbUser==null){
+                return false;
+            }
+
+            String role=dbUser.getRole();
 
             if(role.equals("admin")){
 

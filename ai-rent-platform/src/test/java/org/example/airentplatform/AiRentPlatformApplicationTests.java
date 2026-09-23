@@ -10,7 +10,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Component;
 
 import static com.fasterxml.jackson.databind.jsonFormatVisitors.JsonValueFormat.EMAIL;
-@Component
+
 @SpringBootTest
 class AiRentPlatformApplicationTests {
 

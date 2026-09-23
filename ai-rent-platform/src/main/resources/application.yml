@@ -12,7 +12,7 @@ spring:
           model: deepseek-chat
   data:
     redis:
-      host: 192.168.246.132
+      host: 192.168.246.134
       port: 6379
 
   mail:
@@ -28,7 +28,7 @@ spring:
             required: true
 
   rabbitmq:
-    host: 192.168.246.132
+    host: 192.168.246.134
     port: 5672
     username: guest
     password: guest
@@ -42,4 +42,4 @@ spring:
     charset: UTF-8
     format: json
     return-url: http://localhost:5173/pay/success
-    notify-url: http://你的后端地址/alipay/notify
+    notify-url: http://localhost:8080/pay/notify

@@ -1,6 +1,7 @@
 package org.example.airentplatform.demos.web.controller;
 
 import com.alipay.api.AlipayApiException;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 import org.example.airentplatform.demos.web.mapper.OrderMapper;
@@ -8,6 +9,8 @@ import org.example.airentplatform.demos.web.mapper.TokenSpuMapper;
 import org.example.airentplatform.demos.web.mapper.UserMapper;
 import org.example.airentplatform.demos.web.pojo.Order;
 import org.example.airentplatform.demos.web.pojo.PayOrderParams;
+import org.example.airentplatform.demos.web.pojo.TokenSpu;
+import org.example.airentplatform.demos.web.pojo.User;
 import org.example.airentplatform.demos.web.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -63,7 +66,7 @@ public class PayController {
 
 
     //支付宝异步通知
-    @PostMapping("/notify")
+    @PostMapping("/pay/notify")
     public String notify(HttpServletRequest request) {
 
         // 接收支付宝返回的参数
@@ -74,12 +77,31 @@ public class PayController {
 
         Order order=orderMapper.selectById(orderNo);
         if (tradeStatus.equals("WAIT_BUYER_PAY")) {order.setStatus(1);}
-        if (tradeStatus.equals("TRADE_SUCCESS")) {order.setStatus(2);}
+
         if (tradeStatus.equals("TRADE_CLOSED")) {order.setStatus(3);}
         if (tradeStatus.equals("TRADE_FINISHED")) {order.setStatus(4);}
 
-        orderMapper.updateById(order);//更新订单状态
+        if (tradeStatus.equals("TRADE_SUCCESS")) {order.setStatus(2);
+        String username= order.getUser();
 
+        int id = order.getSpuId();
+        TokenSpu spu=tokenSpuMapper.selectById(id);
+        int increment = spu.getMoney();
+
+
+
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("username", username);
+        int money = userMapper.selectOne(queryWrapper).getMoney();
+
+
+        User user=new User();
+        user.setMoney(money+increment);
+
+        userMapper.update(user,queryWrapper);  } //更新用户余额
+
+
+        orderMapper.updateById(order);//更新订单状态
 
         // 告诉支付宝：我已经收到通知了
         return "success";
