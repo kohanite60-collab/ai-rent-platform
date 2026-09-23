@@ -1,6 +1,7 @@
 package org.example.airentplatform.demos.web.controller;
 
 
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import org.example.airentplatform.demos.web.mapper.AiTaskMapper;
 import org.example.airentplatform.demos.web.mapper.TokenSpuMapper;
 import org.example.airentplatform.demos.web.mapper.UserMapper;
@@ -121,10 +122,12 @@ public class admincontroller {
     //上,下架套餐
     @PostMapping("/revisespu/status")
     public Result upspu(int id,int status){
-        TokenSpu spu=new TokenSpu();
-        spu.setId(id);
-        spu.setStatus(status);
-        int row=spuMapper.updateById(spu);
+
+
+
+        UpdateWrapper<TokenSpu> updateWrapper=new UpdateWrapper<>();
+        updateWrapper.eq("id",id).set("status",status);
+        int row=spuMapper.update(null,updateWrapper);
         if (row>0){return Result.success("上架状态修改成功");}
         return null;
     }

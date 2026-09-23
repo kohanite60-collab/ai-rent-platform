@@ -52,13 +52,15 @@
         <p class="faint">
           状态通过 <code>/ai/status?taskNo=</code> 每 2 秒轮询一次。
         </p>
-      </div>
 
-      <div class="notice notice-warn" style="margin-top: 16px">
-        <strong>已知限制：</strong>后端 <code>RabbitMQConsumer</code> 只把任务状态写回
-        <code>aitask</code> 表，AI 生成的诗文（<code>poem</code> 变量）没有落库，
-        <code>AiTask</code> 也没有存放结果的字段。所以这里能展示任务进度，但拿不到诗句本体。
-        想看到诗文，需要给 <code>AiTask</code> 加一个结果字段并在消费者里保存（属后端改动，本次未动）。
+        <!-- 生成结果：消费者已把诗文写入 aitask.content，轮询时会一并带回 -->
+        <div v-if="current.content" class="poem">
+          <div class="poem-head">
+            <span class="poem-label">生成结果</span>
+            <button class="btn btn-sm" @click="copyPoem(current.content)">复制</button>
+          </div>
+          <pre class="poem-body">{{ current.content }}</pre>
+        </div>
       </div>
     </section>
 
@@ -70,42 +72,39 @@
         </button>
       </div>
 
-      <div v-if="tasksDenied" class="notice notice-info">
-        <strong>你自己的创作记录暂时看不到。</strong>
-        后端目前只有管理员的 <code>/admin/readai</code> 能查任务，缺少「按当前用户查任务」的接口，
-        所以这里只能空着。需要后端补一个（例如 <code>GET /ai/task/list</code>）才能显示。
+      <p class="faint" style="margin: 6px 0 12px">
+        数据来自 <code>GET /user/aitask</code>，后端按 Session 用户名过滤，只会返回你自己的任务。
+      </p>
+
+      <div v-if="loadingTasks && !myTasks.length" class="stack">
+        <div v-for="i in 3" :key="i" class="skeleton" style="height: 58px"></div>
       </div>
 
-      <template v-else>
-        <p class="faint" style="margin: 6px 0 12px">
-          后端没有「按用户查任务」的接口，这里调用 <code>/admin/readai</code> 拉全量后按
-          <code>username</code> 前端过滤。
-        </p>
-
-        <div v-if="loadingTasks && !myTasks.length" class="stack">
-          <div v-for="i in 3" :key="i" class="skeleton" style="height: 58px"></div>
-        </div>
-
-        <div v-else-if="myTasks.length" class="task-list">
-          <div v-for="task in myTasks" :key="task.id" class="task-item">
-            <div class="row-between">
-              <span class="prompt-text">{{ task.prompt }}</span>
-              <span class="tag" :class="statusClass(task.status)">{{ task.status }}</span>
-            </div>
-            <div class="faint">#{{ task.id }} · {{ task.taskname }} · {{ shortNo(task.taskNo) }}</div>
+      <div v-else-if="myTasks.length" class="task-list">
+        <div v-for="task in myTasks" :key="task.id" class="task-item">
+          <div class="row-between">
+            <span class="prompt-text">{{ task.prompt }}</span>
+            <span class="tag" :class="statusClass(task.status)">{{ task.status }}</span>
           </div>
+          <div class="task-foot">
+            <span class="faint">#{{ task.id }} · {{ task.taskname }} · {{ shortNo(task.taskNo) }}</span>
+            <button v-if="task.content" class="btn btn-sm" @click="toggle(task.id)">
+              {{ expandedId === task.id ? '收起' : '查看诗文' }}
+            </button>
+          </div>
+          <pre v-if="expandedId === task.id" class="poem-body">{{ task.content }}</pre>
         </div>
+      </div>
 
-        <div v-else class="empty">还没有创作记录</div>
-      </template>
+      <div v-else class="empty">还没有创作记录</div>
     </section>
   </div>
 </template>
 
 <script setup>
 import { computed, onMounted, onUnmounted, ref } from 'vue'
-import { adminListTasks, createPoem, getTaskStatus } from '../api'
-import { money, refresh, state } from '../store/user'
+import { createPoem, getTaskStatus, listMyTasks } from '../api'
+import { money, refresh } from '../store/user'
 import { toast } from '../toast'
 import { POEM_COST } from '../config'
 
@@ -118,17 +117,14 @@ const polling = ref(false)
 const tasks = ref([])
 const loadingTasks = ref(false)
 const finished = ref(false)
-// /admin/readai 已受管理员权限保护，普通用户会拿到 forbidden
-const tasksDenied = ref(false)
+// 「我的任务」里正在展开查看诗文的条目 id
+const expandedId = ref(null)
 
 let timer = null
 let startedAt = 0
 
-const myTasks = computed(() =>
-  tasks.value
-    .filter((t) => t.username === state.profile?.username)
-    .sort((a, b) => b.id - a.id),
-)
+// 后端 /user/aitask 已按 Session 用户过滤并按 id 倒序，这里直接使用
+const myTasks = computed(() => tasks.value)
 
 const stepIndex = computed(() => {
   const s = current.value?.status
@@ -216,16 +212,29 @@ function startPolling(taskNo) {
 
 async function loadTasks() {
   loadingTasks.value = true
-  tasksDenied.value = false
   try {
-    const res = await adminListTasks()
-    tasks.value = res.data || []
+    // 身份由后端 Session 决定，前端不传用户名
+    const res = await listMyTasks()
+    tasks.value = Array.isArray(res.data) ? res.data : []
   } catch (e) {
-    // 非管理员会被 adminintercepter 拦下，给出降级提示而不是静默空列表
     tasks.value = []
-    if (e.forbidden) tasksDenied.value = true
+    toast.error(e.message)
   } finally {
     loadingTasks.value = false
+  }
+}
+
+function toggle(id) {
+  expandedId.value = expandedId.value === id ? null : id
+}
+
+async function copyPoem(text) {
+  try {
+    await navigator.clipboard.writeText(text)
+    toast.success('已复制到剪贴板')
+  } catch (e) {
+    // 非安全上下文（http）或浏览器拒绝剪贴板权限时会走到这里
+    toast.warn('复制失败，请手动选中文本复制')
   }
 }
 
@@ -297,6 +306,47 @@ onUnmounted(stopPolling)
 
 .task-item .row-between {
   gap: 10px;
+}
+
+.task-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.poem {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel-soft);
+}
+
+.poem-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.poem-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-soft);
+}
+
+.poem-body {
+  margin: 8px 0 0;
+  padding: 0;
+  background: transparent;
+  font-family: var(--font-serif, Georgia, serif);
+  font-size: 14.5px;
+  line-height: 1.9;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .prompt-text {

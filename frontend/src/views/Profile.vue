@@ -69,9 +69,9 @@
             <span>密码</span>
             <input v-model="editForm.password" type="password" placeholder="新的密码" />
           </label>
-          <div class="notice notice-warn">
-            改用户名后 Session 里存的还是旧用户名，随后会被登录拦截器判定为「用户不存在，请重新登录」，
-            这是后端的既有行为，改完请重新登录一次。
+          <div class="notice notice-info">
+            后端会先对新用户名查重，被别人占用会直接拒绝（提示「用户名已存在」）；
+            改成功后登录态会同步刷新，不需要重新登录。
           </div>
           <button class="btn btn-primary" :disabled="saving">保存修改</button>
         </form>
@@ -96,7 +96,7 @@
 <script setup>
 import { onMounted, reactive, ref } from 'vue'
 import { bindEmail, signIn, updateProfile } from '../api'
-import { state, refresh } from '../store/user'
+import { refresh } from '../store/user'
 import { toast } from '../toast'
 
 const loading = ref(false)
@@ -129,12 +129,10 @@ async function onUpdate() {
   try {
     const res = await updateProfile(editForm.username, editForm.password)
     toast.success(res.msg || '修改成功')
-    if (editForm.username !== state.profile?.username) {
-      // 用户名变了，Session 已失效，直接引导重新登录
-      toast.warn('用户名已变更，请重新登录')
-    } else {
-      await load()
-    }
+    // 后端改完用户名会同步刷新 Session（session.setAttribute("user", 新名)），
+    // 登录态仍然有效，重新拉一次资料即可，不必再引导用户重新登录
+    // —— 那是后端还没同步 Session 时的老做法。
+    await load()
   } catch (e) {
     toast.error(e.message)
   } finally {

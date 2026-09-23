@@ -169,9 +169,28 @@ export const createPoem = (prompt) => request('/ai/poem', { method: 'POST', form
 
 export const getTaskStatus = (taskNo) => request('/ai/status', { params: { taskNo } })
 
+/**
+ * 查询当前登录用户自己的 AI 任务（含生成的诗文）。
+ *
+ * 身份完全由后端 Session 决定，前端不传任何身份参数 —— 后端也就没有
+ * 「传别人的名字遍历他人记录」的口子。
+ * 它替代了此前「借 /admin/readai 拉全量再前端过滤」的绕法 —— 那个接口要求 admin，
+ * 普通用户会被 adminintercepter 拦下只剩空响应体。
+ */
+export const listMyTasks = () => request('/user/aitask')
+
 export const listProductions = (sortid) => request('/ai/show/list', { params: { sortid } })
 
-export const getProduction = (id) => request(`/ai/show/${encodeURIComponent(id)}`)
+/**
+ * 作品详情。
+ *
+ * 后端 aicontroller.show(String id) 挂在 @GetMapping("/show/{id}") 上，但方法参数没有写
+ * @PathVariable —— Spring 只有见到该注解才会绑定路径变量，否则只按「请求参数」找 id，
+ * 所以「只拼路径」时后端收到的 id 是 null，详情页恒为空。
+ * 这里把 id 同时作为查询参数带上：后端补了注解走路径、没补就走查询参数，两种都能取到。
+ */
+export const getProduction = (id) =>
+  request(`/ai/show/${encodeURIComponent(id)}`, { params: { id } })
 
 export const uploadProduction = (title, data, sortid) =>
   request('/ai/upload', { method: 'POST', form: { title, data, sortid } })
@@ -187,8 +206,7 @@ export const listSpus = () => request('/spu/list')
 /* ---------------- 管理端 /admin ----------------
  * 后端已把 adminconfign 的拦截路径从 "/admin" 改成 "/admin/**"，
  * 现在这一组接口都要求 role == "admin"，非管理员会被拦下（空响应体）。
- * AiCreate 的「我的任务」里也用了这里的方法，对非管理员会拿到 forbidden 错误，
- * 需要降级提示。
+ * 用户侧不再调用这里的接口：「我的任务」已改用 /user/aitask（见上）。
  */
 
 export const adminListUsers = () => request('/admin/read')

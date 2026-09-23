@@ -22,7 +22,11 @@ public class loginconfign implements WebMvcConfigurer {
         // /spu/list 是套餐的只读展示接口（spucontroller），首页需要让未登录用户也能
         // 看到卖什么，所以放行。这里刻意写精确路径而不是 /spu/**：
         // 浏览可以放宽，交易不能放宽 —— 下单接口 POST /pay 必须继续要求登录。
-        registry.addInterceptor(loginintercepter).addPathPatterns("/**").excludePathPatterns("/check/login","/check/register","/check/sendcode","/spu/list","/index.html","/static/**","/","/css/**","/js/**","/images/**","/mail/**","/error"); //表示拦截所有请求
+        //
+        // /pay/notify 是支付宝服务器的服务端回调（不带任何 Cookie/Session），
+        // 必须放行，否则算力永远不会到账。它已改为公开接口，安全性由
+        // PayController.notify 里的 rsaCheckV1 验签保证，不是靠登录态。
+        registry.addInterceptor(loginintercepter).addPathPatterns("/**").excludePathPatterns("/check/login","/check/register","/check/sendcode","/spu/list","/pay/notify","/index.html","/static/**","/","/css/**","/js/**","/images/**","/mail/**","/error"); //表示拦截所有请求
     }
 
 

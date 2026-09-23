@@ -17,6 +17,11 @@ spring:
 
   mail:
     host: smtp.qq.com
+    # QQ 邮箱 SMTP 官方推荐 465(SSL) / 587(STARTTLS)；不配则默认走 25，很多网络会封。
+    # 注意：这只是把端口摆正，并不解决认证失败 —— 若 PWD 授权码无效或邮箱未开启
+    # SMTP 服务，发信依然会 535 失败（那种情况由 PayController 的 try-catch 兜住，
+    # 只记录日志，不影响算力到账）。
+    port: 587
     username: ${EMAIL}
     password: ${PWD}
     properties:
@@ -33,13 +38,21 @@ spring:
     username: guest
     password: guest
 
-  alipay:
-    app-id: ${ALIPAY_APP_ID}
-    app-private-key: ${ALIPAY_APP_PRIVATE_KEY}
-    alipay-public-key: ${ALIPAY_PUBLIC_KEY}
-    gateway-url: https://openapi-sandbox.dl.alipaydev.com/gateway.do
-    sign-type: RSA2
-    charset: UTF-8
-    format: json
-    return-url: http://localhost:5173/pay/success
-    notify-url: http://localhost:8080/pay/notify
+# 支付宝沙箱配置 —— 必须是**顶层** alipay，切勿缩进到 spring: 下面。
+# AliPayConfig 用的是 @ConfigurationProperties(prefix = "alipay")，只绑定顶层 alipay.*；
+# 一旦缩进进 spring:，属性就变成 spring.alipay.*，六个字段全部绑定失败（保持 null），
+# 表现为 pageExecute 抛 NullPointerException、下单接口 500、支付宝收银台打不开。
+alipay:
+  app-id: ${ALIPAY_APP_ID}
+  app-private-key: ${ALIPAY_APP_PRIVATE_KEY}
+  alipay-public-key: ${ALIPAY_PUBLIC_KEY}
+  gateway-url: https://openapi-sandbox.dl.alipaydev.com/gateway.do
+  sign-type: RSA2
+  charset: UTF-8
+  format: json
+  # return-url 是**同步跳转**，由用户浏览器发起，浏览器在本机 → localhost:5173 可达，保持不变。
+  # 注意：花生壳只映射了 8080，若改成外网域名会打到后端而非 Vite(5173)，反而跳错。
+  return-url: http://localhost:5173/pay/success
+  # notify-url 是**异步回调**，由支付宝服务器从公网发起 → 必须用公网地址。
+  # 依赖花生壳内网穿透：外网 http://1lr24sg579474.vicp.fun (80) → 内网 127.0.0.1:8080
+  notify-url: http://1lr24sg579474.vicp.fun/pay/notify

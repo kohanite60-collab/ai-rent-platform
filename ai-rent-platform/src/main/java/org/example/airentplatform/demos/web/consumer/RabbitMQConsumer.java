@@ -46,6 +46,10 @@ public class RabbitMQConsumer {
             if (poem!=null){
 
                 aitask.setStatus("构建完成");
+                // 诗句必须落库：poem 是局部变量，方法返回即被回收，
+                // 不写进 content 这次生成的结果就永久丢失（前端只能看到"构建完成"却无诗）。
+                // update(entity, wrapper) 只更新非 null 字段，此处 content 一旦赋值即会写回。
+                aitask.setContent(poem);
                 aiTaskMapper.update(aitask,queryWrapper);
 
             }else {

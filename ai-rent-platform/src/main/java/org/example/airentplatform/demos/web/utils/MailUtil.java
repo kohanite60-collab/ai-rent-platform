@@ -41,6 +41,15 @@ public class MailUtil {
             return false;
         }
 
+        return sendToUsername(username, text);
+    }
+
+    /**
+     * 按用户名查库后向其绑定邮箱发送消息。
+     * 适用场景：调用方拿不到 HttpSession，如支付宝异步回调 /pay/notify。
+     */
+    public boolean sendToUsername(String username, String text) {
+
         User user = usermapper.selectOne(new QueryWrapper<User>().eq("username", username));
         // 未绑定邮箱：直接返回，不发送
         if (user == null || user.getEmail() == null || user.getEmail().isBlank()) {
